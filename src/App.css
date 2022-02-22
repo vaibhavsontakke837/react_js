@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 2rem;
+    background-color: lightcoral;
+    min-height: 50vh;
+    margin-top: 3.7rem;
+}
+
+.navbar{
+
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #000000;
+    color:white;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    padding: 1rem;
+    
+}
+
+.navbar > li{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-size:1.5rem;
+}
+.pagenotfound{
+    text-align: center;
+}
+.pagenotfound img{
+    box-sizing: border-box;
+   
+    height: 20rem;
+    width: 60rem !important;
+    object-fit: cover;
+
+}
+.navbar Link,a {
+    position: sticky;
+    color: white;
+    text-decoration: none;
+
+
+    /* top: -5rem;
+    right: 34rem;
+    padding:0.5rem 1.3rem;
+    background-color: #F99827;
+    border-radius: 0.3rem;
+    text-align: center; */
+}

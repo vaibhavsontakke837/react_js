@@ -1,0 +1,38 @@
+.main_container{
+    display: flex;
+
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+}
+.question{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: indianred;
+    border-radius: 3rem;
+
+    height: 3rem;
+    width: 57vw;
+    margin: 0.3rem;
+
+}
+
+.answer{
+    height: 4rem;
+    background-color:khaki ;
+    border-radius: 0.3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.question p{
+    margin-right: 2rem;
+}
+

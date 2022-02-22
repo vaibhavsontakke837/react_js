@@ -1,0 +1,9 @@
+.styled{
+    background-color: gray;
+    text-align: center;
+    padding:2rem 0;
+    width: 60vw;
+    height: 20vh;
+
+    margin: auto;
+}
