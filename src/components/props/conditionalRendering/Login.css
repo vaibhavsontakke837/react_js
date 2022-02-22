@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+    background-color: gray;
+    padding: 2rem;
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+    text-align: center;
+
+}
+
+button{
+    color: white;
+    background-color: red;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    
+}
+
